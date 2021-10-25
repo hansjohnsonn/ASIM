@@ -9,10 +9,11 @@ There are two types of searches that need to be done for the ASIM matching:
 
 ## First steps:
 
-1. Run the file *RUN_ME_FIRST.py*
-2. Check to make sure that directories *Data*, *ASIMData*, *TASDData*, and *TASDDataUpdate* have been created.
-3. run: *pip install -r requirments.txt*
-4. Register an account on this website to get ASIM information: https://asdc.space.dtu.dk/
+1. Clone the Repo locally
+2. Run the file *RUN_ME_FIRST.py*
+3. Check to make sure that directories *Data*, *ASIMData*, *TASDData*, and *TASDDataUpdate* have been created.
+4. run: *pip install -r requirments.txt*
+5. Register an account on this website to get ASIM information: https://asdc.space.dtu.dk/
 	- This may take 1-5 business days to get registered, so give yourself ample time to do so!
 
 ##  Get data
@@ -53,14 +54,14 @@ Becuase the lists given from the ASDC website are so short, we can conduct this 
 
 The output should list data of MMIA, HED, and LED trigger types. HED and LED come from MXGS, 
 	
-	- MMIA detects Transient Luminous Events (TLEs), which are flashes of light that occur in the stratosphere and mesosphere above active thunderstorms. 
-		- These are known as sprites, blue jets, pixies, and trolls
-		- https://www.skybrary.aero/index.php/Transient_Luminous_Events_(TLEs)#:~:text=8%20Further%20Reading-,Description,and%20Cumulonimbus%20(Cb)%20clouds.
-	- HED = High Energy Detector
-	- LED = Low Energy Detector
+- MMIA detects Transient Luminous Events (TLEs), which are flashes of light that occur in the stratosphere and mesosphere above active thunderstorms. 
+	- These are known as sprites, blue jets, pixies, and trolls
+	- https://www.skybrary.aero/index.php/Transient_Luminous_Events_(TLEs)#:~:text=8%20Further%20Reading-,Description,and%20Cumulonimbus%20(Cb)%20clouds.
+- HED = High Energy Detector
+- LED = Low Energy Detector
 
-	- MXGS = https://link.springer.com/article/10.1007/s11214-018-0573-7
-	- MMIA = https://link.springer.com/article/10.1007/s11214-019-0593-y
+- MXGS = https://link.springer.com/article/10.1007/s11214-018-0573-7
+- MMIA = https://link.springer.com/article/10.1007/s11214-019-0593-y
 
 7. Compare to the *.dat* files in *TASDData* or *TASDDataUpdate*
 
