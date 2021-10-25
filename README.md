@@ -52,6 +52,7 @@ Becuase the lists given from the ASDC website are so short, we can conduct this 
 6. Choose the appropriate date range. This range can span multiple months
 
 The output should list data of MMIA, HED, and LED trigger types. HED and LED come from MXGS, 
+	
 	- MMIA detects Transient Luminous Events (TLEs), which are flashes of light that occur in the stratosphere and mesosphere above active thunderstorms. 
 		- These are known as sprites, blue jets, pixies, and trolls
 		- https://www.skybrary.aero/index.php/Transient_Luminous_Events_(TLEs)#:~:text=8%20Further%20Reading-,Description,and%20Cumulonimbus%20(Cb)%20clouds.
